@@ -2,7 +2,7 @@
 
 ## Overview
 
-The `findNeedles` method searches for occurrences of arguments within an input text. It counts the occurrences of each argument from the given array within the input text and provides a count for each argument.
+The `findNeedles()` method searches for occurrences of arguments within an input text. It counts the occurrences of each argument from the given array within the input text and provides a count for each argument.
 
 This method uses a split function to separate the input string data using the following special characters:
 
@@ -46,7 +46,7 @@ public static void findNeedles(String haystack, String[] needles) {
 
 ## Parameters
 
-The following parameters are required to call the `findNeedles` method:
+The following parameters are required to call the `findNeedles()` method:
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
@@ -55,21 +55,21 @@ The following parameters are required to call the `findNeedles` method:
 
 ## Returns
 
-The `findNeedles` method does not return any value.
+The `findNeedles()` method does not return any value.
 
-The following results are obtained after calling the `findNeedles` method:
-- If the length of the needles array is less than five, then the `findNeedles` method prints the following output:
+The following results are obtained after calling the `findNeedles()` method:
+- If the length of the needles array is less than five, then the `findNeedles()` method prints the following output:
   - needles[0]: number of occurrences
   - needles[1]: number of occurrences
   - needles[2]: number of occurrences
   - needles[3]: number of occurrences
-- If the length of the needles array is greater than or equal to five, then the `findNeedles` method prints the following output.
+- If the length of the needles array is greater than or equal to five, then the `findNeedles()` method prints the following output.
 
   `Too many words!`
   
 ## Calling the findNeedles method
 
-The following is a sample for calling the `findNeedles` method using the `haystack` and the `needles` parameters.
+The following is a sample for calling the `findNeedles()` method using the `haystack` and the `needles` parameters.
 
 ```
 String haystack = "Hello, my name is Himani! Nice to meet you.";
@@ -79,7 +79,7 @@ findNeedles(haystack, needles);
 
 ## Test Cases
 
-The following are the various test cases performed with the `findNeedles` method.
+The following are the various test cases performed with the `findNeedles()` method.
 
 ### Test Case 1
 
@@ -152,7 +152,7 @@ findNeedles(haystack, needles);
 
 ## Limitations
 
-The following are the various limitations of the `findNeedles` method:
+The following are the various limitations of the `findNeedles()` method:
 - This method accepts less than or equal to four arguments for the `needles` parameter.
 - Input arguments are case-sensitive.
 
