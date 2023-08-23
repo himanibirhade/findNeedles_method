@@ -72,8 +72,8 @@ The following results are obtained after calling the `findNeedles` method:
 The following is a sample for calling the `findNeedles` method using the `haystack` and the `needles` parameters.
 
 ```
-String haystack = "Hello, my name is Himani! Nice to meet you."
-String[] needles = {"my", "meet", "you"}
+String haystack = "Hello, my name is Himani! Nice to meet you.";
+String[] needles = {"my", "meet", "you"};
 findNeedles(haystack, needles);
 ```
 
