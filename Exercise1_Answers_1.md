@@ -2,9 +2,9 @@
 
 ## Overview
 
-The `findNeedles` method searches for occurrences of arguments within an input text. It counts the occurrences of each argument from the given array within the input text and provides a count for each word.
+The `findNeedles` method searches for occurrences of arguments within an input text. It counts the occurrences of each argument from the given array within the input text and provides a count for each argument.
 
-This method uses a split function to split the input text using the following special characters:
+This method uses a split function to separate the input string data using the following special characters:
 
 | Special Character | Description |
 |-------------------|-------------|
@@ -12,7 +12,7 @@ This method uses a split function to split the input text using the following sp
 | `\'` | single quotes character |
 | `\t` | tab space character |
 | `\n` | new line character |
-| `\b` | back space character |
+| `\b` | backspace character |
 | `\f` | form feed character |
 | `\r` | carriage return character |
 
@@ -47,13 +47,11 @@ public static void findNeedles(String haystack, String[] needles) {
 ## Parameters
 
 The following parameters are required to call the `findNeedles` method:
-- `haystack` (type: String): Input data in string format in which the argument(s) are to be searched
-- `needles` (type: String[]): Input data in the form of a string array to be searched in the 'haystack' parameter
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
 | `haystack` | String | Input data in string format in which the argument(s) are to be searched |
-| `needles` | String[] | Input data in the form of a string array to be searched in the 'haystack' parameter |
+| `needles` | String[] | Input data in the form of a string array to be searched in the `haystack` parameter |
 
 ## Returns
 
@@ -87,14 +85,14 @@ The following are the various test cases performed with the `findNeedles` method
 
 ```
 String haystack = "Hello, my name is Himani! Nice to meet you.";
-String[] needles = {"my", "please", "you."};
+String[] needles = {"my", "Jane", "you."};
 findNeedles(haystack, needles);
 ```
   **Output**
 
   ```
   my: 1
-  please: 0
+  Jane: 0
   you.: 1
   ```
 
@@ -159,5 +157,3 @@ The following are the various limitations of the `findNeedles` method:
 
   For example, "Hello" and "Hello!" are recognized as two different words.
 - No output is received when you pass an empty string or empty array while calling the method.
-
-
