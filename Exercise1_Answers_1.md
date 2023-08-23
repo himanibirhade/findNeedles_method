@@ -133,7 +133,9 @@ findNeedles(haystack, needles);
 ```
  **Output**
 
-No output is displayed
+```
+: 0
+```
 
 ### Test Case 5
 
@@ -144,7 +146,9 @@ findNeedles(haystack, needles);
 ```
  **Output**
 
-No output is displayed
+```
+: 1
+```
 
 ## Limitations
 
@@ -156,4 +160,4 @@ The following are the various limitations of the `findNeedles` method:
 - Punctuation in input arguments is recognized as a distinct word.
 
   For example, "Hello" and "Hello!" are recognized as two different words.
-- No output is received when you pass an empty string or empty array while calling the method.
+- Improper output is received when you pass an empty string or empty array while calling the method.
