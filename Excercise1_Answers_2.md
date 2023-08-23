@@ -2,6 +2,7 @@
 
 The following are some suggestions to improve the code for the `findNeedles()` method:
 - The code can be updated with consistent indentation and formatting.
+  
   The following is a sample of the modified code with consistent indentation and formatting.
   ```
   public static void findNeedles(String haystack, String[] needles) {
